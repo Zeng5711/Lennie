@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/loading_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@color/rym_loading_green"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/rym_finish_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/rym_loading_finish_magarto_tap"
+            android:paddingTop="@dimen/rym_loading_finish_magarto_tap"
+            android:text="@string/rym_loading_finsh"
+            android:textColor="@color/rym_loading_finish_text"
+            android:textSize="@dimen/rym_tip_finish_text"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/rym_loading_finish_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rym_finish_text"
+            android:paddingBottom="@dimen/rym_loading_finish_magarto_tap"
+            android:paddingLeft="@dimen/rym_loading_finish_number_padding_left"
+            android:paddingTop="@dimen/rym_loading_finish_magarto_tap"
+            android:text="@string/rym_loading_finsh_number"
+            android:textColor="@color/rym_loading_finish_text"
+            android:textSize="@dimen/rym_tip_finish_text"
+            tools:ignore="RtlHardcoded,RtlSymmetry,SpUsage" />
+    </RelativeLayout>
+
+</RelativeLayout>

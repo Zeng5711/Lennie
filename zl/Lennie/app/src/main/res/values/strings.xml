@@ -1,0 +1,203 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lennie</string>
+    <string name="title_activity_b">BActivity</string>
+    <string name="title_activity_aidl">AIDLActivity</string>
+
+
+    <!-- 呼吸条 -->
+    <string name="rym_TalkingData_blue_bar">蓝条</string>
+    <string name="rym_TalkingData_sdk_breath_bar">SDK呼吸条</string>
+
+    <item name="XY_TAG" type="id"/>
+
+    <string name="rym_TalkingData_mian_interface">主页面</string>
+    <string name="rym_TalkingData_The_left_panel_display">显示左屏</string>
+    <string name="rym_TalkingData_The_right_panel_display">显示右屏</string>
+    <string name="rym_TalkingData_The_msgcenter">消息中心</string>
+    <string name="rym_TalkingData_The_sdk_list">sdk列表</string>
+    <string name="rym_TalkingData_Initialization_times" tools:ignore="UnusedResources">初始化次数</string>
+    <string name="rym_TalkingData_Click_on_the_plug_in" tools:ignore="UnusedResources">插件点击</string>
+    <string name="rym_TalkingData_App_download_Center">下载中心</string>
+    <string name="rym_TalkingData_App_download_rotate_click">下载按钮点击</string>
+    <string name="rym_TalkingData_Not_click_download">未下载点击</string>
+    <string name="rym_TalkingData_Have_to_download_Click">已下载点击</string>
+    <string name="rym_TalkingData_msglist_switch_to_downloadcenter">消息切换下载</string>
+    <string name="rym_TalkingData_downloadcenter_switch_to_msglist">下载切换消息</string>
+    <string name="rym_TalkingData_Have_to_installed_Click">已安装点击</string>
+    <string name="rym_TalkingData_The_plugin_content_page">插件内容页</string>
+    <string name="rym_TalkingData_The_close_button">关闭按钮</string>
+    <string name="rym_TalkingData_The_back_button">返回按钮</string>
+    <string name="rym_TalkingData_The_back_page">返回上一页</string>
+    <string name="rym_TalkingData_The_protocol_open">协议打开</string>
+    <string name="rym_TalkingData_The_protocol_close">协议关闭</string>
+    <string name="rym_The_plugin_Center" tools:ignore="UnusedResources">插件中心</string>
+    <string name="rym_TalkingData_Click_on_the_imputation_plug_in" tools:ignore="UnusedResources">归集插件点击</string>
+    <string name="rym_TalkingData_Click_on_the_second_plug_in" tools:ignore="UnusedResources">二级插件点击</string>
+    <string name="rym_Download_unnomally">下载出现异常，请重试</string>
+    <string name="rym_Plugin_display_mode_switch">模式切换</string>
+    <string name="rym_main_interface_message_receive_notify">消息提醒</string>
+    <string name="rym_main_interface_message_receive_click">消息提醒点击</string>
+    <string name="rym_h5_bottom_message_bar_click">插件呼吸条</string>
+    <string name="rym_system_push_message_click">点击单条消息</string>
+    <string name="rym_pcenter">个人中心</string>
+    <string name="rym_pcenter_setting" tools:ignore="UnusedResources">点击设置</string>
+    <string name="rym_pcenter_info">点击个人信息</string>
+    <string name="rym_pcenter_asset" tools:ignore="UnusedResources">点击我的资产</string>
+    <string name="rym_pcenter_message" tools:ignore="UnusedResources">消息中心插件</string>
+    <string name="rym_talkingdata_the_notifycation">通知</string>
+    <string name="rym_commonbusness_redmessage_notify" tools:ignore="UnusedResources">红点提醒</string>
+    <string name="rym_packge_is_not_found">安装包不存在</string>
+    <string name="rym_packge_is_not_uninstall" tools:ignore="UnusedResources">应用程序没有安装</string>
+    <string name="rym_unInvilid_url">无效的下载地址</string>
+    <string name="rym_talkinData_open_msg_center_host">消息中心</string>
+    <string name="rym_takingData_msgCenter_interface">消息中心接口</string>
+    <string name="rym_msgCenter_protectMsg">条交易信息已加密，请点击解锁</string>
+
+    <!-- webview talkingdata -->
+    <string name="rym_talkingdata_title_backup">backup</string>
+    <string name="rym_talkingdata_title_close">close</string>
+    <string name="rym_talkingdata_title_more">more</string>
+    <string name="rym_talkingdata_title_wechat">wechat</string>
+    <string name="rym_talkingdata_title_moments">moments</string>
+    <string name="rym_talkingdata_title_weibo">weibo</string>
+    <string name="rym_talkingdata_title_QQ">QQ</string>
+    <string name="rym_talkingdata_title_email">email</string>
+    <string name="rym_talkingdata_title_copyurl">copyurl</string>
+    <string name="rym_talkingdata_title_refresh">refresh</string>
+    <string name="rym_talkingdata_title_my">my</string>
+
+    <string name="rym_talkingdata_title_str">新导航</string>
+    <string name="rym_talkingdata_title_backup_str">返回</string>
+    <string name="rym_talkingdata_title_close_str">关闭</string>
+    <string name="rym_talkingdata_title_more_str">更多</string>
+    <string name="rym_talkingdata_title_wechat_str">微信</string>
+    <string name="rym_talkingdata_title_moments_str">朋友圈</string>
+    <string name="rym_talkingdata_title_weibo_str">微博</string>
+    <string name="rym_talkingdata_title_QQ_str">QQ</string>
+    <string name="rym_talkingdata_title_email_str">邮件</string>
+    <string name="rym_talkingdata_title_copyurl_str">复制链接</string>
+    <string name="rym_talkingdata_title_refresh_str">刷新</string>
+    <string name="rym_talkingdata_title_my_str">我的</string>
+
+
+    <!-- 个人中心 -->
+    <string name="rym_pcenter_asserttitle">资产</string>
+    <string name="rym_pcenter_messagetitle">消息</string>
+    <string name="rym_pcenter_defaultinfo">我的</string>
+    <string name ="rym_pcenter_spare" tools:ignore="UnusedResources">spare</string>
+
+    <!-- 智能语音 -->
+    <string name="rym_voice_send">发送</string>
+    <string name="rym_voice_no_network">无网络</string>
+    <string name="rym_voice_anydoor_exception">sdk异常</string>
+    <string name="rym_voice_service_exception">语音平台返回为空</string>
+    <!-- 智能语音埋点 -->
+    <string name="rym_voice_talkingdata_event">ZNYY_智能语音</string>
+    <string name="rym_voice_talkingdata_record_event_lable">话筒点击</string>
+    <string name="rym_voice_talkingdata_keyboard_event_lable">键盘点击</string>
+
+    <!-- pull_to_refresh -->
+    <string name="rym_pull_to_refresh_pull_label">上拉加载更多</string>
+    <string name="rym_pull_to_refresh_release_label">释放开始刷新</string>
+    <string name="rym_pull_to_refresh_refreshing_label">正在加载中&#8230;</string>
+    <string name="rym_center_bule_text">平安综合金融即将陆续接入</string>
+
+    <!-- app下载中心 -->
+
+
+    <!-- 分享功能 -->
+    <string name="share_weixin">微信</string>
+    <string name="share_weixin_circle">朋友圈</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_qq_zone">QQ空间</string>
+    <string name="share_sina_weibo">新浪微博</string>
+    <string name="share_pa_wetalk" tools:ignore="UnusedResources">天下通</string>
+    <string name="share_copy">复制链接</string>
+    <string name="share_copy_success">复制成功</string>
+    <string name="share_copy_fail" tools:ignore="UnusedResources">复制失败</string>
+    <string name="share_copy_no_url">无链接</string>
+    <string name="wx_share_no_support">本应用不支持微信分享</string>
+    <string name="wx_share_no_app">微信应用未下载</string>
+    <string name="qq_share_no_support">本应用不支持QQ分享</string>
+    <string name="qq_share_no_app">QQ应用未下载</string>
+    <string name="weibo_share_no_support">本应用不支持新浪微博分享</string>
+    <string name="weibo_share_no_app">新浪微博应用未下载</string>
+    <string name="invalid_share" tools:ignore="UnusedResources">此页面不能分享</string>
+    <string name="qq_unsupport_text_share" tools:ignore="UnusedResources">该信息不能分享，QQ不支持纯文本信息的分享</string>
+    <string name="qq_unsupport_image_share" tools:ignore="UnusedResources">该信息不能分享，QQ不支持非本地图片的分享</string>
+
+    <!-- 分享功能埋点定义 -->
+    <string name="talking_data_module_share">分享</string>
+    <string name="talking_data_req_share">分享</string>
+    <string name="talking_data_req_copy">复制链接</string>
+    <string name="talking_data_req_cancel">取消</string>
+
+    <!-- 修改link警告 -->
+    <string name="description">description</string>
+    <string name="ljs">陆金所</string>
+    <string name="anydoor_bigitem_appdetailtv_default" tools:ignore="UnusedResources">6.2m</string>
+    <string name="retry">重试</string>
+    <string name="networkless">网络无法连接</string>
+    <string name="nonetwork">请查看您的网络设置或重试</string>
+    <string name="netset">网络设置</string>
+
+    <!-- loading动画-->
+    <string name="rym_loading_failure">网速不给力 点击重试</string>
+    <!--<string name="app_name" tools:ignore="UnusedResources">Ball</string>-->
+    <string name="action_settings" tools:ignore="UnusedResources">Settings</string>
+    <string name="hello_world" tools:ignore="UnusedResources">Hello world!</string>
+    <string name="rym_loading_finsh">Loading完成</string>
+    <string name="rym_loading_finsh_number">3</string>
+    <string name="rym_loading_game_tip">loading太慢太无聊，玩下游戏吧</string>
+    <string name="rym_loading_game_click">点击屏幕开始游戏</string>
+    <string name="rym_cricle_text">连击:</string>
+    <string name="rym_cricle_maxi_text">最大连击数:</string>
+    <string name="rym_loading_talkdate_name">运营菊花</string>
+    <string name="rym_loading_talkdata_game_tip">游戏引导显示</string>
+    <string name="rym_loading_talkdata_game_tip_click">游戏引导点击</string>
+    <string name="rym_loading_talkdata_game_click">游戏点击</string>
+    <string name="rym_loading_talkdata_game_time">游戏时长</string>
+    <string name="rym_loading_talkdata_over_tip">Loading倒计时展示</string>
+    <string name="rym_loading_talkdata_over_click">Loading倒计时点击</string>
+    <string name="rym_loading_defaut_max_number">0</string>
+    <string name="rym_loading_talkdata_game_close_buuton">游戏关闭按钮</string>
+
+    <string name="rym_plugin_export" tools:ignore="UnusedResources">插件曝光</string>
+
+    <!-- 下载中心错误提醒-->
+    <string name="download_center_error_cannot_resume">未知的下载错误</string>
+    <string name="download_center_error_device_not_found">存储卡没有找到</string>
+    <string name="download_center_error_file_already_exists">文件已经存在</string>
+    <string name="download_center_error_file_error">文件异常</string>
+    <string name="download_center_error_http_data_error">网络数据异常</string>
+    <string name="download_center_error_insufficient_space">SD卡满了</string>
+    <string name="download_center_error_too_many_redirects">下载地址异常</string>
+    <string name="download_center_paused_queued_for_wifi">非wifi模块</string>
+    <string name="download_center_paused_waiting_for_network">网络连接异常</string>
+
+    <!-- crop 图片剪切-->
+    <string name="rym_crop_update_profile_picture">确定</string>
+    <string name="rym_crop_cancel_profile_picture">取消</string>
+    <string name="rym_crop_dialog_photo">拍照</string>
+    <string name="rym_crop_dialog_gallery">从相册选择</string>
+    <string name="rym_crop_dialog_cancel">取消</string>
+    <string name="rym_crop_upload" tools:ignore="UnusedResources">正在上传</string>
+    <string name="rym_crop_fail" tools:ignore="UnusedResources">上传失败，请重新选择</string>
+
+    <string name="rym_share_wx">微信</string>
+    <string name="rym_share_wx_friend">朋友圈</string>
+    <string name="rym_share_wbo">微博</string>
+    <string name="rym_share_qq">QQ</string>
+    <string name="rym_share_email">邮箱</string>
+
+    <string name="rym_web_refresh">刷新页面</string>
+    <string name="rym_web_copy">复制链接</string>
+    <string name="rym_web_my">我的</string>
+
+    <string name="image_illegal">此格式图片不支持上传</string>
+    <string name="camera_unauthorized_pre">请在手机的“设置”选项中，允许</string>
+    <string name="camera_unauthorized_end">访问你的手机相机</string>
+    <string name="camera_title">提示</string>
+    <string name="camera_button">确定</string>
+
+</resources>

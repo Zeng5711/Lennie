@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lennie.org.lennie.loading.CtrlView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/controller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="@dimen/rym_gameview_to_top"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/max_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/rym_gameview_tv_max_to_left"
+                android:text="@string/rym_cricle_maxi_text"
+                android:textSize="@dimen/rym_gameview_tv_max_size"
+                tools:ignore="RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/max_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/rym_loading_defaut_max_number"
+                android:textSize="@dimen/rym_gameview_tv_max_size"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rym_gameview_cricleview_width"
+        android:layout_gravity="top" 
+        android:layout_marginTop="@dimen/rym_gameview_cricleview_to_top">
+
+        <lennie.org.lennie.loading.CircleView
+            android:id="@+id/circleView"
+            android:layout_width="@dimen/rym_gameview_cricleview_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" >
+        </lennie.org.lennie.loading.CircleView>
+
+        <lennie.org.lennie.loading.SunView
+            android:id="@+id/sunView"
+            android:layout_width="@dimen/rym_gameview_cricleview_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" >
+        </lennie.org.lennie.loading.SunView>
+
+        <lennie.org.lennie.loading.ArcView
+            android:id="@+id/arcView"
+            android:layout_width="@dimen/rym_gameview_cricleview_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" >
+        </lennie.org.lennie.loading.ArcView>
+
+        <lennie.org.lennie.loading.LineBGView
+            android:id="@+id/lineBGView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top" >
+        </lennie.org.lennie.loading.LineBGView>
+
+        <lennie.org.lennie.loading.LineView
+            android:id="@+id/lineView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_gravity="top" >
+        </lennie.org.lennie.loading.LineView>
+    </FrameLayout>
+
+    <lennie.org.lennie.loading.BulletView
+        android:id="@+id/bullet1"
+        android:layout_width="@dimen/rym_gameview_bullet_width"
+        android:layout_height="@dimen/rym_gameview_bullet_width"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/rym_gameview_bullet1_to_top" >
+    </lennie.org.lennie.loading.BulletView>
+
+    <lennie.org.lennie.loading.BulletView
+        android:id="@+id/bullet2"
+        android:layout_width="@dimen/rym_gameview_bullet_width"
+        android:layout_height="@dimen/rym_gameview_bullet_width"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/rym_gameview_bullet2_to_top">
+    </lennie.org.lennie.loading.BulletView>
+
+    <lennie.org.lennie.loading.BulletView
+        android:id="@+id/bullet3"
+        android:layout_width="@dimen/rym_gameview_bullet_width"
+        android:layout_height="@dimen/rym_gameview_bullet_width"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/rym_gameview_bullet3_to_top" >
+    </lennie.org.lennie.loading.BulletView>
+
+    <lennie.org.lennie.loading.TargetView
+        android:id="@+id/center_circle"
+        android:layout_width="@dimen/rym_gameview_targetview_width"
+        android:layout_height="@dimen/rym_gameview_targetview_width"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/rym_gameview_targetview_to_top" >
+    </lennie.org.lennie.loading.TargetView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="@dimen/rym_gameView_tip_to_top"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/rym_cricle_text"
+                android:textColor="@color/rym_loading_writh"
+                android:textSize="@dimen/rym_gameview_tip_size"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/rym_loading_defaut_max_number"
+                android:textColor="@color/rym_loading_writh"
+                android:textSize="@dimen/rym_gameview_tip_size"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+</lennie.org.lennie.loading.CtrlView>
